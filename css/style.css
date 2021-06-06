@@ -1,23 +1,25 @@
 body {
+    font-family: Arial;
     margin: 0 auto; 
 }
 
-input {
-    text-align: center;
-    font-size: 32px;
-    font-weight: 700;
-    margin-top: 25px;
-    width: 200px;
+.app {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .generator {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 30px 30px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 200px;
-    width: 300px;
+    width: 320px;
     height: 150px;
-    border-radius: 15px;
     background-color: #1c1c1c;
     font-family: Arial;
     color: white;
@@ -29,8 +31,46 @@ input {
     font-weight: 600;
 }
 
-.generator_info {
-    margin-top: 30px;
-    font-size: 16px;
-    opacity: 70%;
+input {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    padding: 7px 20px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: 0.5s all;     
+}
+
+.btn:hover {
+    background-color: rgb(212, 49, 49);
+}
+
+.author {
+    text-align: center;
+    width: 150px;   
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
 }
