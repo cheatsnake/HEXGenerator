@@ -1,6 +1,6 @@
 # HEX-Color generator
 
-[![N|Solid](https://i.ibb.co/PW3Xzpq/btn.png)](https://yourice.github.io/apps/hex)
+[![N|Solid](https://i.ibb.co/PxTMPJ9/btn.png)](https://yourice.github.io/apps/hex)
 
 Lightweight &amp; fast generator. Easy to use. Simple code.
 
